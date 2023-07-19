@@ -138,7 +138,7 @@ body {
 }
 
 .gamer-section {
-    margin: 54px 0px 176px 0px;
+    margin: 54px 0px 120px 0px;
     padding: 0px 140px;
     display: flex;
     justify-content: space-between;
@@ -200,4 +200,106 @@ body {
     font-weight: 700;
     line-height: 45px;
     color: #534C64;
+}
+
+.video-section {
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.video-text {
+    margin: 0px 0px 48px 0px;
+}
+
+.video-text h2 {
+    font-size: 48px;
+    font-weight: 700px;
+    color: #0B0223;
+    margin: 0px 0px 10px 0px;
+}
+
+.video-text p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+}
+
+.video-text span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.video-thumbnail{
+    margin: 0px 140px 0px 140px;
+}
+.thumbnail-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.thumbnail-card {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 358px;
+}
+
+.thumbnail-card .img1 {
+    margin: 0px 0px 19px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.thumbnail-card p {
+    margin: 0;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.play-button p {
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    border-radius: 16px;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+
+.thumbnail-card:hover .play-button,
+.thumbnail-card:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.thumbnail-card:hover .thumbnail-card {
+    background: black;
+}
+
+.thumbnail-card p {
+    text-align: left;
 }
