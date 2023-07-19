@@ -5,7 +5,7 @@ body {
 
 .navbar {
     display: flex;
-    padding: 44px 240px;
+    padding: 44px 140px;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -69,11 +69,12 @@ body {
 }
 
 .banner-section {
-    padding: 19px 240px 55px 240px;
+    padding: 19px 140px 55px 140px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 
 .banner-text h2 {
     font-size: 48px;
@@ -132,6 +133,71 @@ body {
     background-color: #FF42A5;
 }
 
-#btn2{
+#btn2 {
     background-color: #4EC5F7;
+}
+
+.gamer-section {
+    margin: 54px 0px 176px 0px;
+    padding: 0px 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gamer-section img {
+    width: 788px;
+    height: 409px;
+}
+
+.gamer-text {
+    margin-left: 52px;
+    text-align: right;
+}
+
+.gamer-text h2 {
+    font-size: 48px;
+    font-weight: 700px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px 0px 14px 0px;
+}
+
+.gamer-text .p1 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #534C64;
+    margin: 0px 0px 12px 0px;
+}
+
+.btn3-container button {
+    padding: 21px 40px;
+    text-transform: uppercase;
+    border-radius: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid transparent;
+    background-color: #FF42A5;
+    margin: 0px 0px 10px 0px;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.gamer-text p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #534C64;
+    margin: 0px 0px 0px 0px;
+}
+
+.gamer-text .quotation {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #534C64;
 }
