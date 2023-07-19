@@ -1,0 +1,27 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+   display: flex;
+   padding: 44px 240px;
+   justify-content: space-between;
+}
+.joystick-container{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.joystick-container img{
+    width: 86px;
+    height: 40px;
+    margin-right: 20px;
+}
+.joystick-container h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+}
+.joystick-container span{
+    color: #FF42A5;
+}
