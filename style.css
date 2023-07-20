@@ -204,7 +204,7 @@ body {
 
 .video-section {
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 170px;
 }
 
 .video-text {
@@ -231,9 +231,11 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.video-thumbnail{
+
+.video-thumbnail {
     margin: 0px 140px 0px 140px;
 }
+
 .thumbnail-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -302,4 +304,58 @@ body {
 
 .thumbnail-card p {
     text-align: left;
+}
+
+.image-overlay {
+    margin: 0px 0 120px 0;
+    padding: 0 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overlay-text-container {
+    margin: 0px 265px 0px 100px;
+}
+
+.overlay-text-container h2 {
+    font-size: 48px;
+    font-weight: 700px;
+    color: #0B0223;
+    margin: 0px 0px 0px 0px;
+}
+
+.overlay-text-container span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.overlay-text-container p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #534C64;
+    margin: 24px 0px 0px 0px;
+    text-align: justify;
+}
+
+.overlay-image-container{
+    display: inline-block;
+    position: relative;
+}
+.overlay-image-container .img1 {
+    width: 434px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.overlay-image-container .img2 {
+    width: 218px;
+    height: 265px;
+    border-radius: 8px;
+    top: 260px;
+    left: -109px;
+    position: absolute;
 }
